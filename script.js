@@ -2,9 +2,6 @@ var len;
 var results = '';
 
 function apiSearch() {
-
-    results = '';
-    $('#searchResults').html(results);
    
   var params = {
     "q": $("#query").val(),
@@ -28,9 +25,7 @@ function apiSearch() {
       }
 
       $('#searchResults').html(results);
-        $('#searchResults').dialog();
-
-        data.webPages.value.length = 0;
+      $('#searchResults').dialog();
 
     })
     .fail(function () {
@@ -41,11 +36,15 @@ function apiSearch() {
 function displayTime() {
 
     var today = new Date();
+    
 
     var time = today.getHours() + ':' + today.getMinutes();
 
+    
+
     var currentTime = "<h2>" + time + "</h2>"
 
-    $("#time").html(currentTime);
+    $('#time').html(currentTime);
+    $('#time').dialog();
 
 }
