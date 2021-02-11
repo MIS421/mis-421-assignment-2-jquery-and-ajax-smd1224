@@ -24,6 +24,7 @@
 <body>
     <header>
         <h1>RetroSearch</h1>
+        
     </header>
 
     <div id="content">
@@ -33,7 +34,11 @@
         <button id="timeButton" onclick="displayTime()">TIME</button>
     </div>
     
-    
+    <script type="text/javascript">
+        $("h1").click(function () {
+            $(this).css("background-image", "url(https://images.unsplash.com/photo-1532673492-1b3cdb05d51b?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1267&q=80)");
+        });
+    </script>
 
 
     <div id="searchResults">
