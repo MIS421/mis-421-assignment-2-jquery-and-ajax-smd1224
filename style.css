@@ -13,7 +13,7 @@ header{
     text-align: center
 }
 h1{
-    text-size-adjust: 200%
+    font-size: 100px;
 }
 
 #content{
@@ -65,10 +65,10 @@ button {
 }
 
 #searchResults{
-    visibility:hidden;
+    visibility: hidden;
 }
 
 #time{
-    visibility:hidden;
+    visibility: hidden;
 }
 

@@ -11,7 +11,7 @@
 
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js" integrity="sha384-ZvpUoO/+PpLXR1lu4jmpXWu80pZlYUAfxl5NsBMWOEPSjUn/6Z/hRTt8+pR6L4N2" crossorigin="anonymous"></script>
 
-    <link rel="stylesheet" href="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/themes/smoothness/jquery-ui.css" integrity="sha384-Nlo8b0yiGl7Dn+BgLn4mxhIIBU6We7aeeiulNCjHdUv/eKHx59s3anfSUjExbDxn" crossorigin="anonymous">
+    <link rel="stylesheet" href="./jquery-ui.css" crossorigin="anonymous">
 
     <script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js" integrity="sha384-Dziy8F2VlJQLMShA6FHWNul/veM9bCkRUaLqr199K94ntO5QUrLJBEbYegdSkkqX" crossorigin="anonymous"></script>
 
@@ -28,21 +28,14 @@
     </header>
 
     <div id="content">
-        <input type="text" id="query" />
-        <button id="searchButton" onclick="apiSearch()">SEARCH</button>
-        <br />
+        <input type="text" id="query" /> <br />
+        <button id="searchButton" onclick="runSearch()">SEARCH</button>
         <button id="timeButton" onclick="displayTime()">TIME</button>
     </div>
     
     <script type="text/javascript">
-        
-        $("h1").click(function () {
-            var imageUrl = ["https://images.unsplash.com/photo-1532673492-1b3cdb05d51b?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1267&q=80",
-                "https://images.unsplash.com/photo-1550745165-9bc0b252726f?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80"];
-               
-            $("body").css("background-image", "url(" + imageUrl[0] + ")");
-
-        });
+        $("h1").click(imageSwap);
+       
     </script>
 
 
