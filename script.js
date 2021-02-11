@@ -2,6 +2,10 @@ var len;
 var results = '';
 
 function apiSearch() {
+
+    results = '';
+    $('#searchResults').html(results);
+   
   var params = {
     "q": $("#query").val(),
     "count": "50",
@@ -17,13 +21,17 @@ function apiSearch() {
       type: "GET",
     })
     .done(function (data) {
-      len = data.webPages.value.length;
+        len = data.webPages.value.length;
+        
       for (i = 0; i < len; i++) {
         results += "<p><a href='" + data.webPages.value[i].url + "'>" + data.webPages.value[i].name + "</a>: " + data.webPages.value[i].snippet + "</p>";
       }
 
       $('#searchResults').html(results);
-      $('#searchResults').dialog();
+        $('#searchResults').dialog();
+
+        data.webPages.value.length = 0;
+
     })
     .fail(function () {
       alert("error");
@@ -33,13 +41,10 @@ function apiSearch() {
 function displayTime() {
 
     var today = new Date();
-    var date = today.getFullYear() + '-' + (today.getMonth() + 1) + '-' + today.getDate();
 
-    var time = today.getHours() + ':' + today.getMinutes() + ':' + today.getSeconds()
+    var time = today.getHours() + ':' + today.getMinutes();
 
-    var dateTime = date + ' ' + time;
-
-    var currentTime = "<p>" + dateTime + "</p>"
+    var currentTime = "<h2>" + time + "</h2>"
 
     $("#time").html(currentTime);
 
