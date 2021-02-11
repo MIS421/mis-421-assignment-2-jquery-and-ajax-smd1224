@@ -1,0 +1,12 @@
+C:\Users\Sean\source\repos\mis-421-assignment-2-jquery-and-ajax-smd12241\Assignmeent2\obj\Release\netcoreapp3.1\PubTmp\Out\Assignmeent2.exe
+C:\Users\Sean\source\repos\mis-421-assignment-2-jquery-and-ajax-smd12241\Assignmeent2\obj\Release\netcoreapp3.1\PubTmp\Out\wwwroot\index.html
+C:\Users\Sean\source\repos\mis-421-assignment-2-jquery-and-ajax-smd12241\Assignmeent2\obj\Release\netcoreapp3.1\PubTmp\Out\wwwroot\jquery-ui.css
+C:\Users\Sean\source\repos\mis-421-assignment-2-jquery-and-ajax-smd12241\Assignmeent2\obj\Release\netcoreapp3.1\PubTmp\Out\wwwroot\README.md
+C:\Users\Sean\source\repos\mis-421-assignment-2-jquery-and-ajax-smd12241\Assignmeent2\obj\Release\netcoreapp3.1\PubTmp\Out\wwwroot\script.js
+C:\Users\Sean\source\repos\mis-421-assignment-2-jquery-and-ajax-smd12241\Assignmeent2\obj\Release\netcoreapp3.1\PubTmp\Out\wwwroot\style.css
+C:\Users\Sean\source\repos\mis-421-assignment-2-jquery-and-ajax-smd12241\Assignmeent2\obj\Release\netcoreapp3.1\PubTmp\Out\appsettings.Development.json
+C:\Users\Sean\source\repos\mis-421-assignment-2-jquery-and-ajax-smd12241\Assignmeent2\obj\Release\netcoreapp3.1\PubTmp\Out\appsettings.json
+C:\Users\Sean\source\repos\mis-421-assignment-2-jquery-and-ajax-smd12241\Assignmeent2\obj\Release\netcoreapp3.1\PubTmp\Out\Assignmeent2.dll
+C:\Users\Sean\source\repos\mis-421-assignment-2-jquery-and-ajax-smd12241\Assignmeent2\obj\Release\netcoreapp3.1\PubTmp\Out\Assignmeent2.deps.json
+C:\Users\Sean\source\repos\mis-421-assignment-2-jquery-and-ajax-smd12241\Assignmeent2\obj\Release\netcoreapp3.1\PubTmp\Out\Assignmeent2.runtimeconfig.json
+C:\Users\Sean\source\repos\mis-421-assignment-2-jquery-and-ajax-smd12241\Assignmeent2\obj\Release\netcoreapp3.1\PubTmp\Out\Assignmeent2.pdb

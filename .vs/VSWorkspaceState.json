@@ -1,6 +1,11 @@
 {
   "ExpandedNodes": [
-    ""
+    "",
+    "\\Assignmeent2",
+    "\\Assignmeent2\\obj",
+    "\\Assignmeent2\\obj\\Debug",
+    "\\Assignmeent2\\obj\\Release"
   ],
+  "SelectedNode": "\\Assignmeent2\\Startup.cs",
   "PreviewInSolutionExplorer": false
 }

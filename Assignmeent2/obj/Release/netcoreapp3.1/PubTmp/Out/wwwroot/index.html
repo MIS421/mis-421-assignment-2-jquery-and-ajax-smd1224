@@ -1,0 +1,54 @@
+<!doctype html>
+
+<html lang="en">
+
+<head>
+
+    <link rel="stylesheet" href="./style.css">
+
+    <script type="text/javascript" src="./script.js"></script>
+   
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js" integrity="sha384-ZvpUoO/+PpLXR1lu4jmpXWu80pZlYUAfxl5NsBMWOEPSjUn/6Z/hRTt8+pR6L4N2" crossorigin="anonymous"></script>
+
+    <link rel="stylesheet" href="./jquery-ui.css" crossorigin="anonymous">
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js" integrity="sha384-Dziy8F2VlJQLMShA6FHWNul/veM9bCkRUaLqr199K94ntO5QUrLJBEbYegdSkkqX" crossorigin="anonymous"></script>
+
+    <title>RetroSearch Engine</title>
+
+
+
+</head>
+
+<body>
+    <header>
+        <h1>RetroSearch</h1>
+        
+    </header>
+
+    <div id="content">
+        <input type="text" id="query" /> <br />
+        <button id="searchButton" onclick="runSearch()">SEARCH</button>
+        <button id="timeButton" onclick="displayTime()">TIME</button>
+    </div>
+    
+    <script type="text/javascript">
+        $("h1").click(imageSwap);
+       
+    </script>
+
+
+    <div id="searchResults">
+        
+
+    </div>
+
+    <div id="time">
+
+    </div>
+
+
+</body>
+
+</html>
